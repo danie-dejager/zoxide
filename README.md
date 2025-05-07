@@ -281,6 +281,18 @@ zoxide can be installed in 4 easy steps:
    </details>
 
    <details>
+   <summary>Tcsh</summary>
+
+   > Add this to the <ins>**end**</ins> of your config file (usually `~/.tcshrc`):
+   >
+   > ```sh
+   > zoxide init tcsh > ~/.zoxide.tcsh
+   > source ~/.zoxide.tcsh
+   > ```
+
+   </details>
+
+   <details>
    <summary>Xonsh</summary>
 
    > Add this to the <ins>**end**</ins> of your config file (usually `~/.xonshrc`):
@@ -323,7 +335,7 @@ zoxide can be installed in 4 easy steps:
    interactive selection. It can be installed from [here][fzf-installation].
 
    > **Note**
-   > The minimum supported fzf version is v0.33.0 on most platforms and v0.51.0 on Windows.
+   > The minimum supported fzf version is v0.51.0.
 
 4. **Import your data** <sup>(optional)</sup>
 
