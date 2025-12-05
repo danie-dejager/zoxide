@@ -1,6 +1,6 @@
 %define name zoxide
 %define version 0.9.8
-%define release 3%{?dist}
+%define release 4%{?dist}
 
 Summary:  Fast cd command that learns your habits
 Name:     %{name}
@@ -11,6 +11,7 @@ URL:      https://github.com/ajeetdsouza/zoxide
 Source0:  https://github.com/ajeetdsouza/zoxide/archive/refs/tags/v%{version}.tar.gz
 
 %define debug_package %{nil}
+%undefine _package_note_file
 
 BuildRequires: curl
 BuildRequires: gcc
@@ -59,6 +60,7 @@ install -m 644 man/man1/*.1.gz %{buildroot}%{_mandir}/man1/
 %{_mandir}/man1/*.1.gz
 
 %changelog
+* Fri Dec 5 2025 - Danie de Jager - 0.9.8-4
 * Mon Oct 20 2025 - Danie de Jager - 0.9.8-3
 * Wed Aug 6 2025 - Danie de Jager - 0.9.8-2
 * Thu May 29 2025 - Danie de Jager - 0.9.8-1
