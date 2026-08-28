@@ -36,7 +36,15 @@
 
 <hr />
 
-# zoxide
+<h1>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./contrib/logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./contrib/logo-light.svg">
+    <img alt="zoxide logo" src="./contrib/logo-light.svg" height="128" width="128">
+  </picture>
+  <br />
+  zoxide
+</h1>
 
 [![crates.io][crates.io-badge]][crates.io]
 [![Downloads][downloads-badge]][releases]
@@ -268,7 +276,7 @@ zoxide can be installed in 4 easy steps:
    > ```
    >
    > **Note:**
-   > zoxide only supports Nushell v0.89.0+.
+   > zoxide only supports Nushell v0.106.0+.
 
    </details>
 
@@ -524,7 +532,7 @@ Environment variables[^2] can be used for configuration. They must be set before
 [termux]: https://github.com/termux/termux-packages/tree/master/packages/zoxide
 [tmux-session-wizard]: https://github.com/27medkamal/tmux-session-wizard
 [tmux-sessionx]: https://github.com/omerxx/tmux-sessionx
-[tutorial]: contrib/tutorial.webp
+[tutorial]: contrib/tutorial.gif
 [ubuntu packages]: https://packages.ubuntu.com/jammy/zoxide
 [vim]: https://github.com/vim/vim
 [void linux packages]: https://github.com/void-linux/void-packages/tree/master/srcpkgs/zoxide
