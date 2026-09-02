@@ -1,6 +1,6 @@
 %define name zoxide
 %define version 0.10.0
-%define release 1%{?dist}
+%define release 2%{?dist}
 
 Summary:  Fast cd command that learns your habits
 Name:     %{name}
@@ -60,12 +60,13 @@ install -m 644 man/man1/*.1.gz %{buildroot}%{_mandir}/man1/
 %{_mandir}/man1/*.1.gz
 
 %changelog
+* Tue Sep 02 2026 - Danie de Jager - 0.10.0-2
 * Thu Jul 09 2026 - Danie de Jager - 0.10.0-1
 * Wed Jun 10 2026 - Danie de Jager - 0.9.9-2
-* Sat Mar 7 2026 - Danie de Jager - 0.9.9-1
-* Fri Dec 5 2025 - Danie de Jager - 0.9.8-4
+* Sat Mar 07 2026 - Danie de Jager - 0.9.9-1
+* Fri Dec 05 2025 - Danie de Jager - 0.9.8-4
 * Mon Oct 20 2025 - Danie de Jager - 0.9.8-3
-* Wed Aug 6 2025 - Danie de Jager - 0.9.8-2
+* Wed Aug 06 2025 - Danie de Jager - 0.9.8-2
 * Thu May 29 2025 - Danie de Jager - 0.9.8-1
 * Tue Apr 15 2025 - Danie de Jager - 0.9.7-3
 * Mon Mar 10 2025 - Danie de Jager - 0.9.7-2
@@ -75,7 +76,7 @@ install -m 644 man/man1/*.1.gz %{buildroot}%{_mandir}/man1/
 * Fri Sep 13 2024 - Danie de Jager - 0.9.5-1
 * Fri Jul 12 2024 Danie de Jager - 0.9.4-4
 - Rebuild with rustc 1.79.0
-* Mon May 6 2024 Danie de Jager - 0.9.4-3
+* Mon May 06 2024 Danie de Jager - 0.9.4-3
 - Rebuild with rustc 1.78.0
 * Wed Feb 21 2024 Danie de Jager - 0.9.4-2
 - Cleanup SPEC file
